@@ -1,0 +1,88 @@
+.container{
+    padding:20px;
+    height:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+    body {
+   background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia23492.jpg");
+   background-color: #cccccc;
+      font-family:"Helvetica Neue", "Helvetica", Arial, sans-serif
+  }
+  
+  .stp1{
+    display :flex;
+    height:75px;
+    font-size:55px;
+    color:#564C37;
+    margin-left:5%;
+    
+  }
+  
+  .menu-wrap{
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+
+  .container1 {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  
+  .goruntule{
+      display: block!important;
+  }
+  
+  .prg{
+    display:none;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#8a8a8a;
+    margin-right:50%;
+    margin-left:5%;
+    line-height:20px;
+    color:#1A1A1A;
+    background-color:#ffffff85;
+    padding:20px;
+    
+    border-radius:20px;
+    -webkit-box-shadow: 3px 3px 29px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 29px 2px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 29px 2px rgba(0,0,0,0.75);
+    
+    
+    
+    
+    
+  }
+  
